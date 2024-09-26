@@ -4,10 +4,9 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Clock, FileText, Zap, UserPlus, Mic, FileCheck, SwatchBook, FileLock } from "lucide-react"
+import { Clock, UserPlus, Mic, FileCheck, SwatchBook, FileLock } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import ProcessFlow from "./ProcessFlow"
 
 export function LandingPage() {
   const [typingFinished, setTypingFinished] = useState(false)
