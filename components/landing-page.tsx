@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
+import { Button } from "react-bootstrap"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Clock, UserPlus, Mic, FileCheck, SwatchBook, FileLock } from "lucide-react"
 import Image from "next/image"
