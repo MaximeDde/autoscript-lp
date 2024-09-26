@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Button } from "react-bootstrap"
+import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Clock, UserPlus, Mic, FileCheck, SwatchBook, FileLock } from "lucide-react"
 import Image from "next/image"
@@ -78,18 +78,17 @@ export function LandingPage() {
                 Rapide à intégrer, simple à utiliser. Facilite votre travail au quotidien. Personnalisée à votre établissement.
               </p>
               <div className="space-x-4">
-                <Link href="https://calendly.com/maxime-dde/30min" passHref>
-                  <Button
-                    variant="secondary"
-                    size="lg"
-                    as="a"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-white text-[#149ea4] hover:bg-gray-100 transition-colors duration-300"
-                  >
-                    Demander une démo
-                  </Button>
-                </Link>
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  as="a"
+                  href="https://calendly.com/maxime-dde/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-[#149ea4] hover:bg-gray-100 transition-colors duration-300"
+                >
+                  Demander une démo
+                </Button>
               </div>
             </div>
           </div>
@@ -215,18 +214,17 @@ export function LandingPage() {
               </motion.div>
             </div>
             <motion.div className="space-x-4 text-center mt-12">
-              <Link href="https://calendly.com/maxime-dde/30min" passHref>
-                <Button
-                  variant="secondary"
-                  size="lg"
-                  as="a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" bg-[#149ea4] text-xl text-white font-semibold hover:bg-[#1ac7ce] transition-colors duration-300"
-                >
-                  Demander une démo
-                </Button>
-              </Link>
+              <Button
+                variant="secondary"
+                size="lg"
+                as="a"
+                href="https://calendly.com/maxime-dde/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#149ea4] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
+              >
+                Demander une démo
+              </Button>
             </motion.div>
           </div>
         </section>
@@ -317,18 +315,18 @@ export function LandingPage() {
             </motion.p>
           </div>
           <div className="space-x-4 text-center mt-12">
-              <Link href="https://calendly.com/maxime-dde/30min" passHref>
-                <Button
-                  variant="secondary"
-                  size="lg"
-                  as="a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" bg-[#149ea4] text-xl text-white font-semibold hover:bg-[#1ac7ce] transition-colors duration-300"
-                >
-                  Demander une démo
-                </Button>
-              </Link>
+          <Button
+            variant="secondary"
+            size="lg"
+            as="a"
+            href="https://calendly.com/maxime-dde/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#149ea4] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
+          >
+            Demander une démo
+          </Button>
+
             </div>
         </section>
 
@@ -370,32 +368,17 @@ export function LandingPage() {
                 variants={fadeInUp}
                 custom={2}
               >
-                <Link href="https://calendly.com/maxime-dde/30min" passHref>
-                  <Button
-                    variant="secondary"
-                    size="lg"
-                    className="w-full relative overflow-hidden group"
-                    as="a"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="relative z-10">Demander une démo</span>
-                    <span className="absolute inset-0 overflow-hidden rounded-md">
-                      <span className="absolute inset-0 rounded-md bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
-                      {[...Array(20)].map((_, i) => (
-                        <span
-                          key={i}
-                          className="absolute w-1 h-1 bg-white rounded-full animate-sprinkle"
-                          style={{
-                            top: `${Math.random() * 100}%`,
-                            left: `${Math.random() * 100}%`,
-                            animationDelay: `${Math.random() * 2}s`,
-                          }}
-                        ></span>
-                      ))}
-                    </span>
-                  </Button>
-                </Link>
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  as="a"
+                  href="https://calendly.com/maxime-dde/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-[#149ea4] hover:bg-gray-100 transition-colors duration-300"
+                >
+                  Demander une démo
+                </Button>
               </motion.div>
             </div>
           </div>
