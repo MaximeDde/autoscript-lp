@@ -39,9 +39,6 @@ export function LandingPage() {
           <Link href="#integration" className="text-sm font-medium hover:underline underline-offset-4">
             Intégrer notre solution
           </Link>
-          <Link href="#team" className="text-sm font-medium hover:underline underline-offset-4">
-            Notre équipe
-          </Link>
           <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
             Contact
           </Link>
