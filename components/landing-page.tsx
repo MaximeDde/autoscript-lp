@@ -182,8 +182,7 @@ export function LandingPage() {
                     <CardTitle className="text-[#149ea4] text-xl">Gagnez du temps sur les tâches répétitives</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>Nos systèmes libèrent vos collaborateurs de leurs tâches à faible valeur ajoutée</p>
-                    <p>pour leur permettre de se concentrer sur vos priorités</p>
+                    <p>Nos systèmes libèrent vos collaborateurs de leurs tâches à faible valeur ajoutée, pour leur confort et leur efficacité</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -202,6 +201,100 @@ export function LandingPage() {
                   <CardContent>
                     <p>Besoin d’éléments pour prendre des décisions-clefs ?</p>
                     <p>Demandez-les directement à notre système.</p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            </div>
+            <motion.div className="space-x-4 text-center mt-12">
+              <Button
+                variant="secondary"
+                size="lg"
+                as="a"
+                href="https://calendly.com/contact-autoscript/decouverte-d-autoscript"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#149ea4] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
+              >
+                Demander une démo
+              </Button>
+            </motion.div>
+          </div>
+        </section>
+        
+        {/* Usecases Section */}
+        <section id="usecases" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+          <div className="container mx-auto px-4 md:px-6">
+            <motion.h2
+              className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12"
+              style={{ color: '#149ea4' }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              custom={0}
+            >
+              Quelques cas d'usages typiques
+            </motion.h2>
+            <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
+              {/* Usecase Cards */}
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                custom={1}
+              >
+                <Card>
+                  <CardHeader className="flex flex-row items-center space-x-4 pb-2">
+                    <FileCheck className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <CardTitle className="text-[#149ea4] text-xl">Gestion des mails</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>Connectez le système à votre GMail</p>
+                    <p>Le système va consulter vos mails et s’habituer à votre style d’écriture</p>
+                    <p>Il construit une base de connaissances sur vos thématiques, qui alimente ses réponses</p>
+                    <p>Récupérez des brouillons pour chaque email</p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                custom={2}
+              >
+                <Card>
+                  <CardHeader className="flex flex-row items-center space-x-4 pb-2">
+                    <Mic className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <CardTitle className="text-[#149ea4] text-xl">Réponse à appel d’offres</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>Renseignez l’appel d’offres</p>
+                    <p>Le système subdivise le document par section</p>
+                    <p>Il rédige une première version de réponse en s’appuyant sur les offres de l’entreprise</p>
+                    <p>Récupérez une trame de réponse à cet appel d’offres</p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+              <motion.div
+                initial="
+                hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                custom={3}
+              >
+                <Card>
+                  <CardHeader className="flex flex-row items-center space-x-4 pb-2">
+                    <FileStack className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <CardTitle className="text-[#149ea4] text-xl">Edition de devis automatique</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p>Renseignez la demande du client</p>
+                    <p>Notre système va questionner vos fiches produits, vos fournisseurs, ...</p>
+                    <p>Il va agréger ces infos et générer toutes les données dont il a besoin pour créer le devis</p>
+                    <p>Votre responsable commercial reçoit instantanément le devis</p>
                   </CardContent>
                 </Card>
               </motion.div>
