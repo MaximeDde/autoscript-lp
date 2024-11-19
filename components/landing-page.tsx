@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Mic, FileCheck, Lightbulb, FileStack, Repeat2, Send, TextSearch, Blocks } from "lucide-react"
+import { Megaphone, Lightbulb, FileStack, Repeat2, Send, TextSearch, Blocks, Mails, FileText } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -246,14 +246,16 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <FileCheck className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <Mails className="w-12 h-12" style={{ color: '#149ea4' }} />
                     <CardTitle className="text-[#149ea4] text-xl">Gestion des mails</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>Connectez le système à votre GMail</p>
-                    <p>Le système va consulter vos mails et s’habituer à votre style d’écriture</p>
-                    <p>Il construit une base de connaissances sur vos thématiques, qui alimente ses réponses</p>
-                    <p>Récupérez des brouillons pour chaque email</p>
+                    <ul className="list-disc list-inside">
+                      <li>Connectez le système à votre GMail</li>
+                      <li>Le système va consulter vos mails et s’habituer à votre style d’écriture</li>
+                      <li>Il construit une base de connaissances sur vos thématiques, qui alimente ses réponses</li>
+                      <li>Récupérez des brouillons pour chaque email</li>
+                    </ul>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -266,35 +268,30 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <Mic className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <Megaphone className="w-12 h-12" style={{ color: '#149ea4' }} />
                     <CardTitle className="text-[#149ea4] text-xl">Réponse à appel d’offres</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>Renseignez l’appel d’offres</p>
-                    <p>Le système subdivise le document par section</p>
-                    <p>Il rédige une première version de réponse en s’appuyant sur les offres de l’entreprise</p>
-                    <p>Récupérez une trame de réponse à cet appel d’offres</p>
+                    <ul className="list-disc list-inside">
+                      <li>Renseignez l’appel d’offres</li>
+                      <li>Le système subdivise le document par section</li>
+                      <li>Il rédige une première version de réponse en s’appuyant sur les offres de l’entreprise</li>
+                      <li>Récupérez une trame de réponse à cet appel d’offres</li>
+                    </ul>
                   </CardContent>
                 </Card>
-              </motion.div>
-              <motion.div
-                initial="
-                hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                custom={3}
-              >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <FileStack className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <FileText className="w-12 h-12" style={{ color: '#149ea4' }} />
                     <CardTitle className="text-[#149ea4] text-xl">Edition de devis automatique</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>Renseignez la demande du client</p>
-                    <p>Notre système va questionner vos fiches produits, vos fournisseurs, ...</p>
-                    <p>Il va agréger ces infos et générer toutes les données dont il a besoin pour créer le devis</p>
-                    <p>Votre responsable commercial reçoit instantanément le devis</p>
+                    <ul className="list-disc list-inside">
+                      <li>Renseignez la demande du client</li>
+                      <li>Notre système va questionner vos fiches produits, vos fournisseurs, ...</li>
+                      <li>Il va agréger ces infos et générer toutes les données dont il a besoin pour créer le devis</li>
+                      <li>Votre responsable commercial reçoit instantanément le devis</li>
+                    </ul>
                   </CardContent>
                 </Card>
               </motion.div>
