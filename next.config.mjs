@@ -5,7 +5,7 @@ const nextConfig = {
 
     // Add the images configuration
     images: {
-        domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com'],
+        domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com', 'cdn.midjourney.com'],
   },
 };
 
