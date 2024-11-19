@@ -128,7 +128,7 @@ export function LandingPage() {
                 custom={1}
               >
                 <Image
-                  src="https://cdn.midjourney.com/09e39e66-828f-4513-88f7-1fa169ceabfa/0_0.jpeg"
+                  src="/images/ai-system.png"
                   alt="Système d'IAs échangeant les unes avec les autres"
                   width={500}
                   height={300}
