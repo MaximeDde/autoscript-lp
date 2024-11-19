@@ -128,7 +128,7 @@ export function LandingPage() {
                 custom={1}
               >
                 <Image
-                  src="/ai-system.png"
+                  src="./ai-system.png"
                   alt="Système d'IAs échangeant les unes avec les autres"
                   width={500}
                   height={300}
