@@ -128,7 +128,7 @@ export function LandingPage() {
                 custom={1}
               >
                 <Image
-                  src="https://media.discordapp.net/attachments/1057276443631042570/1308353161505017967/nihaal_a_positive_illustration_showing_a_system_of_AIs_talking__43d22e24-5e7a-4c8e-b2e2-69306e6df257.png?ex=673da255&is=673c50d5&hm=b947f2ee4e9f16ad8e7150255bc59180e7c0c2b32873e162d3fc4a08ef52aa6c&=&format=webp&quality=lossless&width=1050&height=700"
+                  src="/ai-system.png"
                   alt="Système d'IAs échangeant les unes avec les autres"
                   width={500}
                   height={300}
