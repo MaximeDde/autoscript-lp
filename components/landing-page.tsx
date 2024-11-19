@@ -497,7 +497,7 @@ export function LandingPage() {
               variants={fadeInUp}
               custom={4}
             >
-              Nos systèmes sont généralement mis à votre disposition en un mois maximum
+              Nos systèmes sont mis à votre disposition en un mois maximum
             </motion.p>
           </div>
           <div className="space-x-4 text-center mt-12">
