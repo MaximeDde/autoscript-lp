@@ -151,7 +151,7 @@ export function LandingPage() {
               variants={fadeInUp}
               custom={0}
             >
-              Sur quoi peut-on gagner du temps facilement ?
+              Considérez ces trois premiers axes de travail
             </motion.h2>
             <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
               {/* Feature Cards */}
