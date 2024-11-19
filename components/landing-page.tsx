@@ -109,9 +109,6 @@ export function LandingPage() {
                 >
                   Débloquons du temps
                 </h2>
-                <p className="text-gray-500 md:text-xl lg:text-base xl:text-xl">
-                  Des processus chronophages
-                </p>
                 <p className="font-bold text-gray-900 md:text-xl lg:text-base xl:text-xl">
                 Beaucoup de tâches sont encore réalisées par des collaborateurs alors qu’elles sont répétitives et donc automatisables
                 </p>
@@ -185,7 +182,8 @@ export function LandingPage() {
                     <CardTitle className="text-[#149ea4] text-xl">Gagnez du temps sur les tâches répétitives</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>Nos systèmes libèrent vos collaborateurs de leurs tâches à faible valeur ajoutée.</p>
+                    <p>Nos systèmes libèrent vos collaborateurs de leurs tâches à faible valeur ajoutée</p>
+                    <p>pour leur permettre de se concentrer sur vos priorités</p>
                   </CardContent>
                 </Card>
               </motion.div>
