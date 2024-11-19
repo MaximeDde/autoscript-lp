@@ -60,19 +60,19 @@ export function LandingPage() {
             <div className="space-y-6 text-center">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white m-0">
                 <span className="inline-block animate-typing-line1">
-                  Votre solution de
+                  Nous résolvons les problèmes
                 </span>
                 <br />
                 <span className="inline-block animate-typing-line2">
-                  compte-rendu médical
+                  des entreprises françaises
                 </span>
                 <br />
                 <span className="inline-block animate-typing-line3">
-                  par IA
+                  avec des systèmes d'IA
                 </span>
               </h1>
               <p className="mx-auto max-w-[700px] text-zinc-100 md:text-xl m-0">
-                Rapide à intégrer, simple à utiliser. Facilite votre travail au quotidien. Personnalisée à votre établissement.
+                Simple d'utilisation. Facilite votre travail au quotidien. Personnalisé à votre entreprise.
               </p>
               <div className="space-x-4">
                 <Button
@@ -107,10 +107,10 @@ export function LandingPage() {
                   className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
                   style={{ color: '#149ea4' }}
                 >
-                  Vos tâches administratives sont chronophages
+                  Débloquons-leur du temps
                 </h2>
                 <p className="text-gray-500 md:text-xl lg:text-base xl:text-xl">
-                  Indispensables pour un bon suivi
+                  Des processus chronophages
                 </p>
                 <p className="font-bold text-gray-900 md:text-xl lg:text-base xl:text-xl">
                   Consommatrices de temps et d'énergie.
@@ -128,8 +128,8 @@ export function LandingPage() {
                 custom={1}
               >
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_2024-09-25_095206123-NYSFpX4fT4hUiwOM1IsZKlMHVsiOEk.png"
-                  alt="Médecin consultant avec un patient"
+                  src="https://media.discordapp.net/attachments/1057276443631042570/1308353161505017967/nihaal_a_positive_illustration_showing_a_system_of_AIs_talking__43d22e24-5e7a-4c8e-b2e2-69306e6df257.png?ex=673da255&is=673c50d5&hm=b947f2ee4e9f16ad8e7150255bc59180e7c0c2b32873e162d3fc4a08ef52aa6c&=&format=webp&quality=lossless&width=1050&height=700"
+                  alt="Système d'IAs échangeant les unes avec les autres"
                   width={500}
                   height={300}
                   className="rounded-lg object-cover"
