@@ -324,7 +324,7 @@ export function LandingPage() {
         </section>
 
         {/* Integration Section */}
-        <section id="integration" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+        <section id="integration" className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container mx-auto px-4 md:px-6">
             <motion.h2
               className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12"
