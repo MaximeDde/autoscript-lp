@@ -480,7 +480,7 @@ export function LandingPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">
-                      Concevons le système qui vous convient
+                      Concevons LE système qui convient à votre entreprise
                     </h3>
                     <p className="text-gray-600">
                       Une fois que nous nous sommes accordés sur les chantiers prioritaires, nous nous mettons au travail pour créer une solution réellement adaptée à votre entreprise, et non une solution générique.
