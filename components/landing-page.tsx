@@ -396,6 +396,8 @@ export function LandingPage() {
                   </CardContent>
                 </Card>
               </motion.div>
+            </div>
+            <div>
               <motion.div className="space-x-4 text-center mt-12">
                 <Button
                   variant="secondary"
