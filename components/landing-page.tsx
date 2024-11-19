@@ -37,7 +37,7 @@ export function LandingPage() {
         {/* Navigation */}
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#integration" className="text-sm font-medium hover:underline underline-offset-4">
-            Intégrer notre solution
+            Comment nous créons nos systèmes
           </Link>
           <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
             Contact
@@ -128,7 +128,7 @@ export function LandingPage() {
                 custom={1}
               >
                 <Image
-                  src="./ai-system.png"
+                  src="https://www.midjourney.com/jobs/43d22e24-5e7a-4c8e-b2e2-69306e6df257?index=0"
                   alt="Système d'IAs échangeant les unes avec les autres"
                   width={500}
                   height={300}
