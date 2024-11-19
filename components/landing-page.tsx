@@ -283,6 +283,14 @@ export function LandingPage() {
                     </ul>
                   </CardContent>
                 </Card>
+              </motion.div>
+              <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              custom={3}
+              >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
                     <FileText className="w-12 h-12" style={{ color: '#149ea4' }} />
