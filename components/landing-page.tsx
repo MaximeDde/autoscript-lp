@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Clock, UserPlus, Mic, FileCheck, SwatchBook, FileLock } from "lucide-react"
+import { Mic, FileCheck, Lightbulb, FileStack, Repeat2, Send, TextSearch, Blocks } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -164,7 +164,7 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <Clock className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <FileStack className="w-12 h-12" style={{ color: '#149ea4' }} />
                     <CardTitle className="text-[#149ea4] text-xl">Exploitez enfin TOUS vos documents</CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -181,7 +181,7 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <SwatchBook className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <Repeat2 className="w-12 h-12" style={{ color: '#149ea4' }} />
                     <CardTitle className="text-[#149ea4] text-xl">Gagnez du temps sur les tâches répétitives</CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -198,7 +198,7 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <FileLock className="w-12 h-12" style={{ color: '#149ea4' }} />
+                    <Lightbulb className="w-12 h-12" style={{ color: '#149ea4' }} />
                     <CardTitle className="text-[#149ea4] text-xl">Prenez vos décisions de manière éclairée</CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -249,7 +249,7 @@ export function LandingPage() {
                   custom={1}
                 >
                   <div className="flex-shrink-0">
-                    <UserPlus className="w-10 h-10 text-[#149ea4]" />
+                    <Send className="w-10 h-10 text-[#149ea4]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">Contactez-nous pour échanger</h3>
@@ -266,7 +266,7 @@ export function LandingPage() {
                   custom={2}
                 >
                   <div className="flex-shrink-0">
-                    <Mic className="w-10 h-10 text-[#149ea4]" />
+                    <TextSearch className="w-10 h-10 text-[#149ea4]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">Nous venons chez vous auditer vos processus actuels</h3>
@@ -285,7 +285,7 @@ export function LandingPage() {
                   custom={3}
                 >
                   <div className="flex-shrink-0">
-                    <FileCheck className="w-10 h-10 text-[#149ea4]" />
+                    <Blocks className="w-10 h-10 text-[#149ea4]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">
