@@ -259,6 +259,10 @@ export function LandingPage() {
                       <li>Il construit une base de connaissances sur vos thématiques, qui alimente ses réponses</li>
                       <li>Récupérez des brouillons pour chaque email</li>
                     </ul>
+                    <div className="flex items-center space-x-2 mt-4">
+                      <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                      <p className="text-s text-gray-500">Tout département</p>
+                    </div>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -281,6 +285,10 @@ export function LandingPage() {
                       <li>Il rédige une première version de réponse en s’appuyant sur les offres de l’entreprise</li>
                       <li>Récupérez une trame de réponse à cet appel d’offres</li>
                     </ul>
+                    <div className="flex items-center space-x-2 mt-4">
+                      <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                      <p className="text-s text-gray-500">Commerciaux</p>
+                    </div>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -303,6 +311,10 @@ export function LandingPage() {
                       <li>Il va agréger ces infos et générer toutes les données dont il a besoin pour créer le devis</li>
                       <li>Votre responsable commercial reçoit instantanément le devis</li>
                     </ul>
+                    <div className="flex items-center space-x-2 mt-4">
+                      <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                      <p className="text-s text-gray-500">Commerciaux</p>
+                    </div>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -325,6 +337,10 @@ export function LandingPage() {
                         <li>Il va vérifier quels CVs répondent à ces critères</li>
                         <li>Récupérez les CVs correspondant à l’offre, avec explication</li>
                       </ul>
+                      <div className="flex items-center space-x-2 mt-4">
+                      <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                      <p className="text-s text-gray-500">Ressources Humaines</p>
+                      </div>
                     </CardContent>
                   </Card>
               </motion.div>
@@ -333,7 +349,7 @@ export function LandingPage() {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeInUp}
-                custom={4}
+                custom={5}
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
@@ -348,8 +364,34 @@ export function LandingPage() {
                     <li>Récupérez la réponse, avec les liens vers les documents concernés</li>
                   </ul>
                   <div className="flex items-center space-x-2 mt-4">
-                    <Target className="w-4 h-4" style={{ color: '#149ea4' }} />
-                    <p className="text-xs text-gray-500">Tout département</p>
+                    <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                    <p className="text-s text-gray-500">Tout département</p>
+                  </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                custom={5}
+              >
+                <Card>
+                  <CardHeader className="flex flex-row items-center space-x-4 pb-2">
+                  <FileText className="w-12 h-12" style={{ color: '#149ea4' }} />
+                  <CardTitle className="text-[#149ea4] text-xl">Compte-rendu d’entretien</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                  <ul className="list-disc list-inside">
+                    <li>Enregistrez votre entretien</li>
+                    <li>Le système va transcrire l’entretien et analyser son contenu</li>
+                    <li>Il va ensuite rédiger un compte-rendu contextualisé</li>
+                    <li>Récupérez le compte-rendu, avec les actions-clefs, moments importants...</li>
+                  </ul>
+                  <div className="flex items-center space-x-2 mt-4">
+                    <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                    <p className="text-s text-gray-500">Tout département</p>
                   </div>
                   </CardContent>
                 </Card>
