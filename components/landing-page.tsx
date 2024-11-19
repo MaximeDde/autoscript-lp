@@ -63,7 +63,7 @@ export function LandingPage() {
             <div className="space-y-6 text-center">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white m-0">
                 <span className="inline-block animate-typing-line1">
-                  Nous résolvons les problèmes
+                  Nous automatisons les processus
                 </span>
                 <br />
                 <span className="inline-block animate-typing-line2">
@@ -71,7 +71,7 @@ export function LandingPage() {
                 </span>
                 <br />
                 <span className="inline-block animate-typing-line3">
-                  avec des systèmes d'IA
+                  grâce à des systèmes d'IA
                 </span>
               </h1>
               <p className="mx-auto max-w-[700px] text-zinc-100 md:text-xl m-0">
