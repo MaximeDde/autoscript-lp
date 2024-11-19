@@ -128,7 +128,7 @@ export function LandingPage() {
                 custom={1}
               >
                 <Image
-                  src="https://www.midjourney.com/jobs/43d22e24-5e7a-4c8e-b2e2-69306e6df257?index=0"
+                  src="https://cdn.midjourney.com/09e39e66-828f-4513-88f7-1fa169ceabfa/0_0.jpeg"
                   alt="Système d'IAs échangeant les unes avec les autres"
                   width={500}
                   height={300}
