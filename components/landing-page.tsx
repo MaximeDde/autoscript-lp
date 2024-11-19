@@ -36,8 +36,11 @@ export function LandingPage() {
         </div>
         {/* Navigation */}
         <nav className="ml-auto flex gap-4 sm:gap-6">
+          <Link href="#usecases" className="text-sm font-medium hover:underline underline-offset-4">
+            Cas d'usages
+          </Link>
           <Link href="#integration" className="text-sm font-medium hover:underline underline-offset-4">
-            Comment nous créons nos systèmes
+            Notre méthode
           </Link>
           <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
             Contact
@@ -233,7 +236,7 @@ export function LandingPage() {
               variants={fadeInUp}
               custom={0}
             >
-              Quelques cas d'usages typiques
+              Cas d'usage
             </motion.h2>
             <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
               {/* Usecase Cards */}
@@ -324,7 +327,7 @@ export function LandingPage() {
               variants={fadeInUp}
               custom={0}
             >
-              Comment nous créons nos systèmes ?
+              Notre méthode
             </motion.h2>
             <div className="max-w-3xl mx-auto">
               <div className="space-y-8">
