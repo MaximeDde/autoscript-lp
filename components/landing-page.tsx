@@ -37,7 +37,7 @@ export function LandingPage() {
         {/* Navigation */}
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#usecases" className="text-sm font-medium hover:underline underline-offset-4">
-            Cas d'usages
+            Cas d'usage
           </Link>
           <Link href="#integration" className="text-sm font-medium hover:underline underline-offset-4">
             Notre méthode
@@ -110,7 +110,7 @@ export function LandingPage() {
                   className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
                   style={{ color: '#149ea4' }}
                 >
-                  Débloquons du temps
+                  Libérez du temps à vos collaborateurs
                 </h2>
                 <p className="font-bold text-gray-900 md:text-xl lg:text-base xl:text-xl">
                 Beaucoup de tâches sont encore réalisées par des collaborateurs alors qu’elles sont répétitives et donc automatisables
@@ -462,7 +462,7 @@ export function LandingPage() {
                   <div>
                     <h3 className="text-xl font-semibold">Nous venons chez vous auditer vos processus actuels</h3>
                     <p className="text-gray-600">
-                      Nous souhaitons nous assurer de proposer une solution sur mesure. Pour cela, nous venons observer attentivement vos fonctionnements actuels avant d'émettre nos recommandations quant aux zones d'optimisation
+                      Nous souhaitons nous assurer de proposer une solution sur mesure. Pour cela, nous venons observer attentivement vos fonctionnements actuels avant d'émettre nos recommandations
                     </p>
                   </div>
                 </motion.div>
