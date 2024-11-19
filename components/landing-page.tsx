@@ -54,7 +54,7 @@ export function LandingPage() {
         <section className="w-full py-12 md:py-16 lg:py-20 relative overflow-hidden">
           {/* Background Gradient */}
           <div
-            className="absolute inset-0 bg-gradient-to-r from-[#149ea4] to-[#1ac7ce] animate-gradient-x"
+            className="absolute inset-0 bg-gradient-to-r bg-black animate-gradient-x"
             style={{
               backgroundSize: "200% 200%",
             }}
