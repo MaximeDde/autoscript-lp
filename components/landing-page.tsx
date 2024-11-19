@@ -107,16 +107,16 @@ export function LandingPage() {
                   className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
                   style={{ color: '#149ea4' }}
                 >
-                  Débloquons-leur du temps
+                  Débloquons du temps
                 </h2>
                 <p className="text-gray-500 md:text-xl lg:text-base xl:text-xl">
                   Des processus chronophages
                 </p>
                 <p className="font-bold text-gray-900 md:text-xl lg:text-base xl:text-xl">
-                  Consommatrices de temps et d'énergie.
+                Beaucoup de tâches sont encore réalisées par des collaborateurs alors qu’elles sont répétitives et donc automatisables
                 </p>
                 <p className="text-gray-500 md:text-xl lg:text-base xl:text-xl">
-                  Alors que nous devrions nous concentrer sur le plus important : le soin du patient.
+                Pour beaucoup de problématiques, l’intelligence artificielle aide à faire mieux et pour moins cher
                 </p>
               </motion.div>
               <motion.div
@@ -151,7 +151,7 @@ export function LandingPage() {
               variants={fadeInUp}
               custom={0}
             >
-              Gagnez du temps en automatisant la création de vos comptes-rendus
+              Sur quoi peut-on gagner du temps facilement ?
             </motion.h2>
             <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
               {/* Feature Cards */}
@@ -165,10 +165,10 @@ export function LandingPage() {
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
                     <Clock className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">4 fois moins de temps</CardTitle>
+                    <CardTitle className="text-[#149ea4] text-xl">Exploitez enfin TOUS vos documents</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>Votre compte-rendu est automatiquement généré une fois l'enregistrement terminé. Vous n'avez plus qu'à le valider !</p>
+                    <p>Notre IA peut aller chercher l’information en un temps record dans l’ensemble de vos documents : mails, docs, excel...</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -182,12 +182,10 @@ export function LandingPage() {
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
                     <SwatchBook className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">Facile à intégrer</CardTitle>
+                    <CardTitle className="text-[#149ea4] text-xl">Gagnez du temps sur les tâches répétitives</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>Nous créons votre espace.</p>
-                    <p>Nous le configurons.</p>
-                    <p>Vous n'avez plus qu'à l'utiliser.</p>
+                    <p>Nos systèmes libèrent vos collaborateurs de leurs tâches à faible valeur ajoutée.</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -201,11 +199,11 @@ export function LandingPage() {
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
                     <FileLock className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">Sécurité des données</CardTitle>
+                    <CardTitle className="text-[#149ea4] text-xl">Prenez vos décisions de manière éclairée</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p>Vos données sont hébergés dans des environnements certifiés SecNumCloud.</p>
-                    <p>Elles ne sont accessibles qu'à votre équipe.</p>
+                    <p>Besoin d’éléments pour prendre des décisions-clefs ?</p>
+                    <p>Demandez-les directement à notre système.</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -238,7 +236,7 @@ export function LandingPage() {
               variants={fadeInUp}
               custom={0}
             >
-              Comment intégrer notre solution ?
+              Comment nous créons nos systèmes ?
             </motion.h2>
             <div className="max-w-3xl mx-auto">
               <div className="space-y-8">
@@ -254,8 +252,8 @@ export function LandingPage() {
                     <UserPlus className="w-10 h-10 text-[#149ea4]" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold">Créez votre compte sur AutoScript</h3>
-                    <p className="text-gray-600">Commencez votre parcours avec AutoScript en quelques clics.</p>
+                    <h3 className="text-xl font-semibold">Contactez-nous pour échanger</h3>
+                    <p className="text-gray-600">Nous commençons toujours par un premier échange sur vos problématiques actuelles et ce que vous avez déjà exploré.</p>
                   </div>
                 </motion.div>
                 <div className="w-px h-12 bg-gray-300 mx-auto"></div>
@@ -271,9 +269,9 @@ export function LandingPage() {
                     <Mic className="w-10 h-10 text-[#149ea4]" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold">Enregistrez votre compte-rendu, ou votre consultation</h3>
+                    <h3 className="text-xl font-semibold">Nous venons chez vous auditer vos processus actuels</h3>
                     <p className="text-gray-600">
-                      Utilisez notre outil d'enregistrement intégré pour capturer vos observations.
+                      Nous souhaitons nous assurer de proposer une solution sur mesure. Pour cela, nous venons observer attentivement vos fonctionnements actuels avant d'émettre nos recommandations quant aux zones d'optimisation
                     </p>
                   </div>
                 </motion.div>
@@ -291,10 +289,10 @@ export function LandingPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">
-                      Recevez votre compte-rendu en quelques minutes, prêt à être envoyé !
+                      Concevons le système qui vous convient
                     </h3>
                     <p className="text-gray-600">
-                      Notre IA traite rapidement vos enregistrements pour produire des comptes-rendus précis.
+                      Une fois que nous nous sommes accordés sur les chantiers prioritaires, nous nous mettons au travail pour créer une solution réellement adaptée à votre entreprise, et non une solution générique.
                     </p>
                   </div>
                 </motion.div>
@@ -308,7 +306,7 @@ export function LandingPage() {
               variants={fadeInUp}
               custom={4}
             >
-              Intégrer notre solution est simple, rapide, et vous fait économiser du temps dès la première utilisation.
+              Nos systèmes sont généralement mis à votre disposition en un mois maximum
             </motion.p>
           </div>
           <div className="space-x-4 text-center mt-12">
@@ -344,7 +342,7 @@ export function LandingPage() {
                   variants={fadeInUp}
                   custom={0}
                 >
-                  Prêt à révolutionner vos comptes-rendus médicaux ?
+                  Prêt à révolutionner votre entreprise ?
                 </motion.h2>
                 <motion.p
                   className="mx-auto max-w-[600px] text-zinc-200 md:text-xl"
@@ -354,7 +352,7 @@ export function LandingPage() {
                   variants={fadeInUp}
                   custom={1}
                 >
-                  Contactez-nous dès aujourd'hui pour une démonstration personnalisée d'AutoScript.
+                  Contactez-nous dès aujourd'hui pour un premier échange.
                 </motion.p>
               </div>
               <motion.div
