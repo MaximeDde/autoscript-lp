@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Megaphone, Lightbulb, FileStack, Repeat2, Send, TextSearch, Blocks, Mails, FileText, Binoculars, Target } from "lucide-react"
+import { Megaphone, Lightbulb, FileStack, FileSearch, Repeat2, Send, TextSearch, Blocks, Mails, FileText, Binoculars, Target } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -353,7 +353,7 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                  <FileText className="w-12 h-12" style={{ color: '#149ea4' }} />
+                  <FileSearch className="w-12 h-12" style={{ color: '#149ea4' }} />
                   <CardTitle className="text-[#149ea4] text-xl">Recherche de docs par chatbot</CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -375,7 +375,7 @@ export function LandingPage() {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeInUp}
-                custom={5}
+                custom={6}
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
