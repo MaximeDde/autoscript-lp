@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Megaphone, Lightbulb, FileStack, Repeat2, Send, TextSearch, Blocks, Mails, FileText } from "lucide-react"
+import { Megaphone, Lightbulb, FileStack, Repeat2, Send, TextSearch, Blocks, Mails, FileText, Binoculars, Target } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -306,20 +306,68 @@ export function LandingPage() {
                   </CardContent>
                 </Card>
               </motion.div>
-            </div>
-            <motion.div className="space-x-4 text-center mt-12">
-              <Button
-                variant="secondary"
-                size="lg"
-                as="a"
-                href="https://calendly.com/contact-autoscript/decouverte-d-autoscript"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#149ea4] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                custom={4}
+                >
+                  <Card>
+                    <CardHeader className="flex flex-row items-center space-x-4 pb-2">
+                      <Binoculars className="w-12 h-12" style={{ color: '#149ea4' }} />
+                      <CardTitle className="text-[#149ea4] text-xl">Matching CV / Offre d’emploi</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <ul className="list-disc list-inside">
+                        <li>Renseignez l’offre étudiée</li>
+                        <li>Le système va analyser les critères de l’offre</li>
+                        <li>Il va vérifier quels CVs répondent à ces critères</li>
+                        <li>Récupérez les CVs correspondant à l’offre, avec explication</li>
+                      </ul>
+                    </CardContent>
+                  </Card>
+              </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                custom={4}
               >
-                Demander une démo
-              </Button>
-            </motion.div>
+                <Card>
+                  <CardHeader className="flex flex-row items-center space-x-4 pb-2">
+                  <FileText className="w-12 h-12" style={{ color: '#149ea4' }} />
+                  <CardTitle className="text-[#149ea4] text-xl">Recherche de docs par chatbot</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                  <ul className="list-disc list-inside">
+                    <li>Posez votre question</li>
+                    <li>Le système va comparer la question avec les documents présents dans sa base</li>
+                    <li>Il va ensuite formuler une réponse après avoir re-trié les résultats</li>
+                    <li>Récupérez la réponse, avec les liens vers les documents concernés</li>
+                  </ul>
+                  <div className="flex items-center space-x-2 mt-4">
+                    <Target className="w-4 h-4" style={{ color: '#149ea4' }} />
+                    <p className="text-xs text-gray-500">Tout département</p>
+                  </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+              <motion.div className="space-x-4 text-center mt-12">
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  as="a"
+                  href="https://calendly.com/contact-autoscript/decouverte-d-autoscript"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#149ea4] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
+                >
+                  Demander une démo
+                </Button>
+              </motion.div>
+            </div>
           </div>
         </section>
 
