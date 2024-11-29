@@ -85,7 +85,7 @@ export function LandingPage() {
                   href="https://calendly.com/contact-autoscript/decouverte-d-autoscript"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-[#149ea4] hover:bg-gray-100 transition-colors duration-300"
+                  className="bg-white text-black hover:bg-gray-100 transition-colors duration-300"
                 >
                   Demander une démo
                 </Button>
@@ -508,7 +508,7 @@ export function LandingPage() {
             href="https://calendly.com/contact-autoscript/decouverte-d-autoscript"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#149ea4] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
+            className="bg-black text-white hover:bg-[#1ac7ce] transition-colors duration-300"
           >
             Demander une démo
           </Button>
@@ -520,7 +520,7 @@ export function LandingPage() {
         <section
           id="contact"
           className="w-full py-12 md:py-24 lg:py-32"
-          style={{ backgroundColor: '#149ea4' }}
+          style={{ backgroundColor: 'black' }}
         >
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
