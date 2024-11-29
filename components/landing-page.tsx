@@ -108,7 +108,7 @@ export function LandingPage() {
               >
                 <h2
                   className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
-                  style={{ color: '#149ea4' }}
+                  style={{ color: 'black' }}
                 >
                   Libérez du temps à vos collaborateurs
                 </h2>
@@ -144,7 +144,7 @@ export function LandingPage() {
           <div className="container mx-auto px-4 md:px-6">
             <motion.h2
               className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12"
-              style={{ color: '#149ea4' }}
+              style={{ color: 'black' }}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
@@ -164,8 +164,8 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <FileStack className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">Exploitez enfin TOUS vos documents</CardTitle>
+                    <FileStack className="w-12 h-12" style={{ color: 'black' }} />
+                    <CardTitle className="text-[black] text-xl">Exploitez enfin TOUS vos documents</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p>Notre IA peut aller chercher l’information en un temps record dans l’ensemble de vos documents : mails, docs, excel...</p>
@@ -181,8 +181,8 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <Repeat2 className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">Gagnez du temps sur les tâches répétitives</CardTitle>
+                    <Repeat2 className="w-12 h-12" style={{ color: 'black' }} />
+                    <CardTitle className="text-[black] text-xl">Gagnez du temps sur les tâches répétitives</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p>Nos systèmes libèrent vos collaborateurs de leurs tâches à faible valeur ajoutée, pour leur confort et leur efficacité</p>
@@ -198,8 +198,8 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <Lightbulb className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">Prenez vos décisions de manière éclairée</CardTitle>
+                    <Lightbulb className="w-12 h-12" style={{ color: 'black' }} />
+                    <CardTitle className="text-[black] text-xl">Prenez vos décisions de manière éclairée</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p>Besoin d’éléments pour prendre des décisions-clefs ?</p>
@@ -216,7 +216,7 @@ export function LandingPage() {
                 href="https://calendly.com/contact-autoscript/decouverte-d-autoscript"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#149ea4] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
+                className="bg-[black] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
               >
                 Demander une démo
               </Button>
@@ -229,7 +229,7 @@ export function LandingPage() {
           <div className="container mx-auto px-4 md:px-6">
             <motion.h2
               className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12"
-              style={{ color: '#149ea4' }}
+              style={{ color: 'black' }}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
@@ -249,8 +249,8 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <Mails className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">Gestion des mails</CardTitle>
+                    <Mails className="w-12 h-12" style={{ color: 'black' }} />
+                    <CardTitle className="text-[black] text-xl">Gestion des mails</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ul className="list-disc list-inside">
@@ -260,7 +260,7 @@ export function LandingPage() {
                       <li>Récupérez des brouillons pour chaque email</li>
                     </ul>
                     <div className="flex items-center space-x-2 mt-4">
-                      <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                      <Target className="w-8 h-8" style={{ color: 'black' }} />
                       <p className="text-s text-gray-500">Tout département</p>
                     </div>
                   </CardContent>
@@ -275,8 +275,8 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <Megaphone className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">Réponse à appel d’offres</CardTitle>
+                    <Megaphone className="w-12 h-12" style={{ color: 'black' }} />
+                    <CardTitle className="text-[black] text-xl">Réponse à appel d’offres</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ul className="list-disc list-inside">
@@ -286,7 +286,7 @@ export function LandingPage() {
                       <li>Récupérez une trame de réponse à cet appel d’offres</li>
                     </ul>
                     <div className="flex items-center space-x-2 mt-4">
-                      <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                      <Target className="w-8 h-8" style={{ color: 'black' }} />
                       <p className="text-s text-gray-500">Commerciaux</p>
                     </div>
                   </CardContent>
@@ -301,8 +301,8 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                    <FileText className="w-12 h-12" style={{ color: '#149ea4' }} />
-                    <CardTitle className="text-[#149ea4] text-xl">Edition de devis automatique</CardTitle>
+                    <FileText className="w-12 h-12" style={{ color: 'black' }} />
+                    <CardTitle className="text-[black] text-xl">Edition de devis automatique</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ul className="list-disc list-inside">
@@ -312,7 +312,7 @@ export function LandingPage() {
                       <li>Votre responsable commercial reçoit instantanément le devis</li>
                     </ul>
                     <div className="flex items-center space-x-2 mt-4">
-                      <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                      <Target className="w-8 h-8" style={{ color: 'black' }} />
                       <p className="text-s text-gray-500">Commerciaux</p>
                     </div>
                   </CardContent>
@@ -327,8 +327,8 @@ export function LandingPage() {
                 >
                   <Card>
                     <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                      <Binoculars className="w-12 h-12" style={{ color: '#149ea4' }} />
-                      <CardTitle className="text-[#149ea4] text-xl">Matching CV / Offre d’emploi</CardTitle>
+                      <Binoculars className="w-12 h-12" style={{ color: 'black' }} />
+                      <CardTitle className="text-[black] text-xl">Matching CV / Offre d’emploi</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <ul className="list-disc list-inside">
@@ -338,7 +338,7 @@ export function LandingPage() {
                         <li>Récupérez les CVs correspondant à l’offre, avec explication</li>
                       </ul>
                       <div className="flex items-center space-x-2 mt-4">
-                      <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                      <Target className="w-8 h-8" style={{ color: 'black' }} />
                       <p className="text-s text-gray-500">Ressources Humaines</p>
                       </div>
                     </CardContent>
@@ -353,8 +353,8 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                  <FileSearch className="w-12 h-12" style={{ color: '#149ea4' }} />
-                  <CardTitle className="text-[#149ea4] text-xl">Recherche de docs par chatbot</CardTitle>
+                  <FileSearch className="w-12 h-12" style={{ color: 'black' }} />
+                  <CardTitle className="text-[black] text-xl">Recherche de docs par chatbot</CardTitle>
                   </CardHeader>
                   <CardContent>
                   <ul className="list-disc list-inside">
@@ -364,7 +364,7 @@ export function LandingPage() {
                     <li>Récupérez la réponse, avec les liens vers les documents concernés</li>
                   </ul>
                   <div className="flex items-center space-x-2 mt-4">
-                    <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                    <Target className="w-8 h-8" style={{ color: 'black' }} />
                     <p className="text-s text-gray-500">Tout département</p>
                   </div>
                   </CardContent>
@@ -379,8 +379,8 @@ export function LandingPage() {
               >
                 <Card>
                   <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-                  <FileText className="w-12 h-12" style={{ color: '#149ea4' }} />
-                  <CardTitle className="text-[#149ea4] text-xl">Compte-rendu d’entretien</CardTitle>
+                  <FileText className="w-12 h-12" style={{ color: 'black' }} />
+                  <CardTitle className="text-[black] text-xl">Compte-rendu d’entretien</CardTitle>
                   </CardHeader>
                   <CardContent>
                   <ul className="list-disc list-inside">
@@ -390,7 +390,7 @@ export function LandingPage() {
                     <li>Récupérez le compte-rendu, avec les actions-clefs, moments importants...</li>
                   </ul>
                   <div className="flex items-center space-x-2 mt-4">
-                    <Target className="w-8 h-8" style={{ color: '#149ea4' }} />
+                    <Target className="w-8 h-8" style={{ color: 'black' }} />
                     <p className="text-s text-gray-500">Tout département</p>
                   </div>
                   </CardContent>
@@ -406,7 +406,7 @@ export function LandingPage() {
                   href="https://calendly.com/contact-autoscript/decouverte-d-autoscript"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[#149ea4] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
+                  className="bg-[black] text-white hover:bg-[#1ac7ce] transition-colors duration-300"
                 >
                   Demander une démo
                 </Button>
@@ -420,7 +420,7 @@ export function LandingPage() {
           <div className="container mx-auto px-4 md:px-6">
             <motion.h2
               className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12"
-              style={{ color: '#149ea4' }}
+              style={{ color: 'black' }}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
@@ -440,7 +440,7 @@ export function LandingPage() {
                   custom={1}
                 >
                   <div className="flex-shrink-0">
-                    <Send className="w-10 h-10 text-[#149ea4]" />
+                    <Send className="w-10 h-10 text-[black]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">Contactez-nous pour échanger</h3>
@@ -457,7 +457,7 @@ export function LandingPage() {
                   custom={2}
                 >
                   <div className="flex-shrink-0">
-                    <TextSearch className="w-10 h-10 text-[#149ea4]" />
+                    <TextSearch className="w-10 h-10 text-[black]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">Nous venons chez vous auditer vos processus actuels</h3>
@@ -476,7 +476,7 @@ export function LandingPage() {
                   custom={3}
                 >
                   <div className="flex-shrink-0">
-                    <Blocks className="w-10 h-10 text-[#149ea4]" />
+                    <Blocks className="w-10 h-10 text-[black]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold">
@@ -561,7 +561,7 @@ export function LandingPage() {
                   href="https://calendly.com/contact-autoscript/decouverte-d-autoscript"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-[#149ea4] hover:bg-gray-100 transition-colors duration-300"
+                  className="bg-white text-[black] hover:bg-gray-100 transition-colors duration-300"
                 >
                   Demander une démo
                 </Button>
